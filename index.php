@@ -5,6 +5,6 @@ $pages = $db-> query("
     SELECT id, label, slug
     FROM pages
 ")->fetchAll(PDO::FETCH_ASSOC);
-echo' ';
+echo'';
 require VIEW_ROOT.'/home.php';
 ?>
